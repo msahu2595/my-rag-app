@@ -1,3 +1,5 @@
+Youtube Link: https://youtu.be/1C9vsbSrnGw
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -15,6 +17,12 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Create .env.local file and add below keys
+
+OPENAI_API_KEY="key-will-go-here"
+QDRANT_URL="url-will-go-here"
+QDRANT_API_KEY="key-will-go-here"
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
